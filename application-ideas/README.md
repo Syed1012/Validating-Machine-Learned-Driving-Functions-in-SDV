@@ -2,7 +2,7 @@
 
 Why: interview and internal-document access will likely be thin (~5–6 interviews, limited internal docs). A local, privacy-preserving tool turns that constraint into a documented methodological choice rather than a weakness — and gives the thesis a demonstrable artifact independent of data volume. All three ideas run on-device: automotive validation and interview data is exactly the kind of material that shouldn't be sent to a cloud API.
 
-Recommendation: build **Idea 2** as the primary artifact. Fall back to **Idea 1** if it needs to work before interviews are done. Only attempt **Idea 3** if time remains — it's 1 + 2 combined.
+Decision: build **Idea 3** (1 + 2 combined). Idea 2's index is first used during interview coding, then becomes the case side of the tool. Build the standards side (Idea 1) first since it needs no data; fall back to it alone if time runs out. See `thesis-outline.md`, chapters 6, 12 and 13.
 
 ---
 
